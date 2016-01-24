@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: e50f4af9499e24ac9b08e30acc337ee9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Swan_Sheet 1_0
+    21300002: Swan_Sheet 1_1
+    21300004: Swan_Sheet 1_2
+    21300006: Swan_Sheet 1_3
+    21300008: Swan_Sheet 1_4
+    21300010: Swan_Sheet 1_5
+    21300012: Swan_Sheet 1_6
+    21300014: Swan_Sheet 1_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Swan_Sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 219
+        width: 231
+        height: 101
+      alignment: 9
+      pivot: {x: 0.64191204, y: 0.5873848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.71832, y: 40.674133}
+        - {x: -141.28168, y: 40.674133}
+        - {x: -148.28168, y: 30.674133}
+        - {x: -148.28168, y: 3.6741333}
+        - {x: -140.28168, y: -9.325867}
+        - {x: -14.281677, y: -59.325867}
+        - {x: 21.718323, y: -59.325867}
+        - {x: 21.718323, y: -41.325867}
+        - {x: 52.718323, y: -35.325867}
+        - {x: 82.71832, y: 8.674133}
+    - name: Swan_Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 252
+        width: 230
+        height: 76
+      alignment: 9
+      pivot: {x: 0.6480112, y: 0.38387057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.04257, y: 46.825836}
+        - {x: -120.04257, y: 39.825836}
+        - {x: -149.04257, y: 14.825836}
+        - {x: -149.04257, y: -1.1741638}
+        - {x: -27.042572, y: -29.174164}
+        - {x: 36.957428, y: -29.174164}
+        - {x: 80.95743, y: -5.174164}
+        - {x: 80.95743, y: 31.825836}
+        - {x: 33.957428, y: 46.825836}
+    - name: Swan_Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 427
+        width: 241
+        height: 125
+      alignment: 9
+      pivot: {x: 0.6621823, y: 0.22765942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -126.58592, y: 96.54257}
+        - {x: -159.58592, y: 84.54257}
+        - {x: -159.58592, y: -4.457428}
+        - {x: -50.585922, y: -28.457428}
+        - {x: 36.414078, y: -28.457428}
+        - {x: 81.41408, y: -0.45742798}
+        - {x: 81.41408, y: 73.54257}
+        - {x: 72.41408, y: 96.54257}
+    - name: Swan_Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 427
+        width: 236
+        height: 166
+      alignment: 9
+      pivot: {x: 0.64959055, y: 0.15820716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.303375, y: 139.73761}
+        - {x: -153.30338, y: 25.73761}
+        - {x: -153.30338, y: -26.26239}
+        - {x: 82.696625, y: -26.26239}
+        - {x: 82.696625, y: 88.73761}
+        - {x: 53.696625, y: 139.73761}
+    - name: Swan_Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 427
+        width: 236
+        height: 121
+      alignment: 9
+      pivot: {x: 0.64959043, y: 0.2290763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.303345, y: 93.28177}
+        - {x: -89.303345, y: 68.28177}
+        - {x: -153.30334, y: 34.28177}
+        - {x: -153.30334, y: 0.2817688}
+        - {x: -66.303345, y: -27.718231}
+        - {x: 35.696655, y: -27.718231}
+        - {x: 76.696655, y: -19.718231}
+        - {x: 82.696655, y: 0.2817688}
+        - {x: 82.696655, y: 56.28177}
+        - {x: 65.696655, y: 93.28177}
+    - name: Swan_Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 607
+        width: 230
+        height: 153
+      alignment: 9
+      pivot: {x: 0.648011, y: 0.76370376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -141.04254, y: 36.15332}
+        - {x: -149.04254, y: 20.15332}
+        - {x: -149.04254, y: -0.8466797}
+        - {x: -148.04254, y: -3.8466797}
+        - {x: -97.04254, y: -116.84668}
+        - {x: -57.04254, y: -116.84668}
+        - {x: 69.95746, y: -33.84668}
+        - {x: 80.95746, y: -13.84668}
+        - {x: 80.95746, y: 36.15332}
+    - name: Swan_Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 663
+        width: 235
+        height: 97
+      alignment: 9
+      pivot: {x: 0.66095775, y: 0.62998223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -145.32507, y: 35.891724}
+        - {x: -155.32507, y: 17.891724}
+        - {x: -155.32507, y: -7.1082764}
+        - {x: -21.325073, y: -61.108276}
+        - {x: 34.674927, y: -61.108276}
+        - {x: 79.67493, y: 3.8917236}
+        - {x: 79.67493, y: 35.891724}
+    - name: Swan_Sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 692
+        width: 240
+        height: 80
+      alignment: 9
+      pivot: {x: 0.6365898, y: 0.37391585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104.781555, y: 50.08673}
+        - {x: -152.78156, y: 35.08673}
+        - {x: -152.78156, y: 0.08673096}
+        - {x: -102.781555, y: -29.913269}
+        - {x: 57.218445, y: -29.913269}
+        - {x: 87.218445, y: -11.913269}
+        - {x: 87.218445, y: 39.08673}
+        - {x: 54.218445, y: 50.08673}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

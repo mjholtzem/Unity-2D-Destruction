@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/2D_Destruction/Demo/Scenes/Level.unity
+  isLoaded: 1
+  isActive: 1

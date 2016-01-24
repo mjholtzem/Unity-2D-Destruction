@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: f66e58b49cbb63741a688917eebb1b1d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bus
+    21300002: Wheels
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bus
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 136
+        width: 507
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 220.5, y: -172}
+        - {x: 223.5, y: -171}
+        - {x: 222.5, y: -155}
+        - {x: 220.5, y: -146}
+        - {x: 219.5, y: -120}
+        - {x: 220.5, y: -119}
+        - {x: 221.5, y: -110}
+        - {x: 221.5, y: -59}
+        - {x: 222.5, y: -58}
+        - {x: 224.5, y: -39}
+        - {x: 227.5, y: -20}
+        - {x: 231.5, y: 3}
+        - {x: 234.5, y: 15}
+        - {x: 237.5, y: 31}
+        - {x: 241.5, y: 42}
+        - {x: 240.5, y: 47}
+        - {x: 251.5, y: 85}
+        - {x: 253.5, y: 99}
+        - {x: 253.5, y: 148}
+        - {x: 243.5, y: 154}
+        - {x: 230.5, y: 164}
+        - {x: 218.5, y: 166}
+        - {x: 210.5, y: 167}
+        - {x: -45.5, y: 167}
+        - {x: -46.5, y: 168}
+        - {x: -61.5, y: 170}
+        - {x: -135.5, y: 170}
+        - {x: -136.5, y: 171}
+        - {x: -165.5, y: 171}
+        - {x: -165.5, y: 172}
+        - {x: -175.5, y: 172}
+        - {x: -194.5, y: 159}
+        - {x: -204.5, y: 149}
+        - {x: -211.5, y: 138}
+        - {x: -219.5, y: 120}
+        - {x: -222.5, y: 109}
+        - {x: -223.5, y: 103}
+        - {x: -223.5, y: 23}
+        - {x: -224.5, y: 18}
+        - {x: -219.5, y: 11}
+        - {x: -203.5, y: 2}
+        - {x: -203.5, y: -6}
+        - {x: -201.5, y: -10}
+        - {x: -201.5, y: -62}
+        - {x: -205.5, y: -69}
+        - {x: -239.5, y: -75}
+        - {x: -249.5, y: -85}
+        - {x: -249.5, y: -162}
+        - {x: -247.5, y: -168}
+        - {x: -243.5, y: -172}
+        - {x: -187.5, y: -172}
+        - {x: -187.5, y: -173}
+        - {x: -180.5, y: -173}
+        - {x: -178.5, y: -171}
+        - {x: -132.5, y: -171}
+        - {x: -119.5, y: -172}
+        - {x: 111.5, y: -172}
+        - {x: 111.5, y: -173}
+        - {x: 116.5, y: -173}
+        - {x: 119.5, y: -166}
+        - {x: 159.5, y: -166}
+        - {x: 175.5, y: -172}
+    - name: Wheels
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 7
+        width: 359
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -125.5, y: 29}
+        - {x: -163.5, y: 29}
+        - {x: -177.5, y: 24}
+        - {x: -177.5, y: -25}
+        - {x: -168.5, y: -31}
+        - {x: -119.5, y: -31}
+        - {x: -114.5, y: -30}
+        - {x: -114.5, y: 13}
+        - {x: -118.5, y: 20}
+      - - {x: 163.5, y: 31}
+        - {x: 123.5, y: 31}
+        - {x: 113.5, y: 17}
+        - {x: 113.5, y: -17}
+        - {x: 123.5, y: -31}
+        - {x: 171.5, y: -31}
+        - {x: 177.5, y: -22}
+        - {x: 178.5, y: -11}
+        - {x: 178.5, y: 22}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

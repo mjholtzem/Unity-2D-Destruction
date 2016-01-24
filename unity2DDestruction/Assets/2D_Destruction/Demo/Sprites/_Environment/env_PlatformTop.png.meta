@@ -1,0 +1,90 @@
+fileFormatVersion: 2
+guid: fefd3ef4575bf460897e37cb36fdb945
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: env_PlatformTop
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: env_PlatformTop
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 577
+        width: 458
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 210, y: -71.5}
+        - {x: 220, y: -61.5}
+        - {x: 220, y: -34.5}
+        - {x: 229, y: -24.5}
+        - {x: 229, y: 19.5}
+        - {x: 219, y: 37.5}
+        - {x: 219, y: 64.5}
+        - {x: 203, y: 74.5}
+        - {x: -211, y: 74.5}
+        - {x: -223, y: 52.5}
+        - {x: -223, y: 14.5}
+        - {x: -220, y: 5.5}
+        - {x: -229, y: -6.5}
+        - {x: -229, y: -74.5}
+        - {x: -95, y: -74.5}
+        - {x: 52, y: -73.5}
+        - {x: 69, y: -73.5}
+        - {x: 191, y: -72.5}
+      - - {x: -223, y: 53.5}
+        - {x: -220, y: 54.5}
+        - {x: -220, y: 57.5}
+        - {x: -223, y: 58.5}
+        - {x: -225, y: 56.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

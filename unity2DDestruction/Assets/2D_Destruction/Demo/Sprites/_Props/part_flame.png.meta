@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: 505e7d9cb9fd14a45bdd00f6282fa528
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: flame1
+    21300002: flame2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: flame1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 232
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 52.5}
+        - {x: -63, y: 19.5}
+        - {x: -58, y: 12.5}
+        - {x: -51, y: 10.5}
+        - {x: -65, y: 12.5}
+        - {x: -101, y: 8.5}
+        - {x: -111, y: -3.5}
+        - {x: -115, y: -15.5}
+        - {x: -115, y: -21.5}
+        - {x: -113, y: -24.5}
+        - {x: -14, y: -43.5}
+        - {x: 8, y: -44.5}
+        - {x: 15, y: -42.5}
+        - {x: 16, y: -44.5}
+        - {x: 19, y: -52.5}
+        - {x: 98, y: -52.5}
+        - {x: 116, y: -47.5}
+        - {x: 116, y: 26.5}
+        - {x: 111, y: 52.5}
+    - name: flame2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 230
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -89, y: -0.5}
+        - {x: -84, y: -7.5}
+        - {x: -50, y: -18.5}
+        - {x: -35, y: -18.5}
+        - {x: -58, y: -35.5}
+        - {x: -12, y: -50.5}
+        - {x: 99, y: -50.5}
+        - {x: 115, y: -43.5}
+        - {x: 115, y: 50.5}
+        - {x: -24, y: 50.5}
+        - {x: -89, y: 36.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 8ef95d64ca207f449917f64972ea5669
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: part_smokepuffs_0
+    21300002: part_smokepuffs_1
+    21300004: part_smokepuffs_2
+    21300006: part_smokepuffs_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: part_smokepuffs_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 15
+        width: 193
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 112.5}
+        - {x: -86.5, y: 33.5}
+        - {x: -96.5, y: 3.5}
+        - {x: -96.5, y: -68.5}
+        - {x: -24.5, y: -73.5}
+        - {x: -4.5, y: -112.5}
+        - {x: 52.5, y: -112.5}
+        - {x: 96.5, y: -58.5}
+        - {x: 96.5, y: 97.5}
+        - {x: 81.5, y: 112.5}
+    - name: part_smokepuffs_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 40
+        width: 175
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.5, y: -3}
+        - {x: 87.5, y: 51}
+        - {x: 49.5, y: 86}
+        - {x: -68.5, y: 86}
+        - {x: -87.5, y: 68}
+        - {x: -87.5, y: -3}
+        - {x: -61.5, y: -84}
+        - {x: -52.5, y: -86}
+        - {x: 4.5, y: -86}
+        - {x: 10.5, y: -81}
+        - {x: 32.5, y: -59}
+        - {x: 84.5, y: -19}
+    - name: part_smokepuffs_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 44
+        width: 161
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 82.5}
+        - {x: -80.5, y: 48.5}
+        - {x: -80.5, y: -35.5}
+        - {x: 1.5, y: -82.5}
+        - {x: 72.5, y: -82.5}
+        - {x: 80.5, y: -80.5}
+        - {x: 80.5, y: 76.5}
+        - {x: 56.5, y: 82.5}
+    - name: part_smokepuffs_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 47
+        width: 195
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97.5, y: -80.5}
+        - {x: -95.5, y: -80.5}
+        - {x: -93.5, y: -78.5}
+        - {x: -94.5, y: -75.5}
+        - {x: -97.5, y: -75.5}
+      - - {x: 29.5, y: 80.5}
+        - {x: -67.5, y: 80.5}
+        - {x: -82.5, y: 76.5}
+        - {x: -86.5, y: 72.5}
+        - {x: -86.5, y: -53.5}
+        - {x: -79.5, y: -80.5}
+        - {x: 65.5, y: -80.5}
+        - {x: 97.5, y: -33.5}
+        - {x: 97.5, y: 47.5}
+        - {x: 46.5, y: 76.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

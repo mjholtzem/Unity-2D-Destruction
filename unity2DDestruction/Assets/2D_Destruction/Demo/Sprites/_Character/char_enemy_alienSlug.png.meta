@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 361e1e5d552ad444fb688b5203c01caa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemy1-tail
+    21300002: enemy1-body
+    21300004: enemy1-eye
+    21300006: enemy1-eyelid
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemy1-tail
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 167
+        height: 168
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -156, y: -7}
+        - {x: -157, y: -13}
+        - {x: -157, y: -59}
+        - {x: -78, y: -74}
+        - {x: 0, y: -74}
+        - {x: 0, y: 82}
+        - {x: -3, y: 81}
+    - name: enemy1-body
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 305
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116.5, y: -206}
+        - {x: 124.5, y: -196}
+        - {x: 130.5, y: -183}
+        - {x: 131.5, y: -168}
+        - {x: 139.5, y: -121}
+        - {x: 138.5, y: -90}
+        - {x: 136.5, y: -76}
+        - {x: 152.5, y: -40}
+        - {x: 152.5, y: -17}
+        - {x: 149.5, y: -8}
+        - {x: 132.5, y: 5}
+        - {x: 132.5, y: 14}
+        - {x: 126.5, y: 58}
+        - {x: 125.5, y: 88}
+        - {x: 119.5, y: 137}
+        - {x: 112.5, y: 157}
+        - {x: 104.5, y: 172}
+        - {x: 91.5, y: 189}
+        - {x: 69.5, y: 208}
+        - {x: 55.5, y: 217}
+        - {x: 20.5, y: 232}
+        - {x: -55.5, y: 232}
+        - {x: -85.5, y: 219}
+        - {x: -106.5, y: 199}
+        - {x: -126.5, y: 172}
+        - {x: -128.5, y: 167}
+        - {x: -140.5, y: 142}
+        - {x: -144.5, y: 127}
+        - {x: -145.5, y: 46}
+        - {x: -143.5, y: 26}
+        - {x: -151.5, y: -6}
+        - {x: -152.5, y: -13}
+        - {x: -152.5, y: -221}
+        - {x: -137.5, y: -221}
+        - {x: -128.5, y: -220}
+        - {x: -86.5, y: -209}
+        - {x: -67.5, y: -210}
+        - {x: -56.5, y: -218}
+        - {x: -27.5, y: -231}
+        - {x: -21.5, y: -232}
+        - {x: 8.5, y: -232}
+        - {x: 31.5, y: -228}
+        - {x: 68.5, y: -212}
+        - {x: 101.5, y: -212}
+    - name: enemy1-eye
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 303
+        width: 109
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 50}
+        - {x: -51.5, y: 46}
+        - {x: -51.5, y: -50}
+        - {x: 51.5, y: -50}
+        - {x: 51.5, y: 50}
+    - name: enemy1-eyelid
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 318
+        width: 137
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 47}
+        - {x: -68.5, y: 36}
+        - {x: -68.5, y: -62}
+        - {x: -60.5, y: -62}
+        - {x: 68.5, y: -34}
+        - {x: 68.5, y: 44}
+        - {x: 54.5, y: 47}
+    outline: []
+  spritePackingTag: characters
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
