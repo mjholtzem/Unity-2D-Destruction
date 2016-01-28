@@ -5,6 +5,8 @@ Unity 2D Destruction is a basic tool for breaking 2D sprites into fragments for 
 
 [Unity Forum] (http://forum.unity3d.com/threads/free-open-source-unity-2d-destruction.382416/)
 
+[Tutorial Video] (https://youtu.be/pe4_Dimk7v0)
+
 ## Instructions for Basic Use
 * Import the Unity 2D Destruction package
 * drag a sprite into your scene
