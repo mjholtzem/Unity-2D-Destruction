@@ -12,8 +12,8 @@ public class Explodable : MonoBehaviour
     public int extraPoints = 0;
     public int subshatterSteps = 0;
 
-    public string fragmentLayer = "Pieces";
-    public string sortingLayerName = "Foreground";
+    public string fragmentLayer = "Default";
+    public string sortingLayerName = "Default";
     public int orderInLayer = 0;
 
     public enum ShatterType
