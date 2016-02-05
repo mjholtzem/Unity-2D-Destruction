@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 public class ExplodableFragments : ExplodableAddon{
@@ -8,6 +7,8 @@ public class ExplodableFragments : ExplodableAddon{
         foreach (GameObject fragment in fragments)
         {
             Explodable fragExp = fragment.AddComponent<Explodable>();
+			fragment.AddComponent<ExplodeOnClick>();
+
             fragExp.shatterType = explodable.shatterType;
             fragExp.fragmentLayer = explodable.fragmentLayer;
             fragExp.sortingLayerName = explodable.sortingLayerName;
