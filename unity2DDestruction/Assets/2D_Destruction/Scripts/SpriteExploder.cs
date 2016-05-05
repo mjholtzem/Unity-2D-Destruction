@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Delaunay;
@@ -137,6 +137,7 @@ public static class SpriteExploder {
         Vector3 diff = calcPivotCenterDiff(piece);
         centerMeshPivot(piece, diff);
         uMesh.RecalculateBounds();
+		uMesh.RecalculateNormals();
 
         //setFragmentMaterial(piece, source);
         piece.GetComponent<MeshRenderer>().sharedMaterial = mat;
@@ -275,6 +276,7 @@ public static class SpriteExploder {
         Vector3 diff = calcPivotCenterDiff(piece);
         centerMeshPivot(piece, diff);
         uMesh.RecalculateBounds();
+		uMesh.RecalculateNormals();
 
         //setFragmentMaterial(piece, source);
         piece.GetComponent<MeshRenderer>().sharedMaterial = mat;
@@ -559,7 +561,8 @@ public static class SpriteExploder {
     private static void setFragmentMaterial(GameObject newSprite, GameObject source)
     {
         
-        Material mat = new Material(Shader.Find("Sprites/Default"));
+        //Material mat = new Material(Shader.Find("Sprites/Default"));
+		Material mat = new Material(source.GetComponent<Renderer>().sharedMaterial);
         
         SpriteRenderer sRend = source.GetComponent<SpriteRenderer>();
         if (sRend != null)
@@ -578,7 +581,7 @@ public static class SpriteExploder {
         SpriteRenderer sRend = source.GetComponent<SpriteRenderer>();
         if (sRend != null)
         {
-            Material mat = new Material(Shader.Find("Sprites/Default"));
+            Material mat = new Material(sRend.sharedMaterial);
             mat.SetTexture("_MainTex", sRend.sprite.texture);
             mat.color = sRend.color;
             return mat;
