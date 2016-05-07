@@ -24,7 +24,6 @@ public static class SpriteExploder {
         Vector2 origVelocity = source.GetComponent<Rigidbody2D>().velocity;
 
         //get collider information
-       
         PolygonCollider2D sourcePolyCollider = source.GetComponent<PolygonCollider2D>();
         BoxCollider2D sourceBoxCollider = source.GetComponent<BoxCollider2D>();
         List<Vector2> points = new List<Vector2>();
@@ -115,11 +114,14 @@ public static class SpriteExploder {
         vertices[0] = new Vector3(tri[0].x, tri[0].y, 0);
         vertices[1] = new Vector3(tri[1].x, tri[1].y, 0);
         vertices[2] = new Vector3(tri[2].x, tri[2].y, 0);
-        triangles[0] = 0;
-        triangles[1] = 1;
-        triangles[2] = 2;
+		//triangles[0] = 0;
+		//triangles[1] = 1;
+		//triangles[2] = 2;
+		triangles[0] = 2;
+		triangles[1] = 1;
+		triangles[2] = 0;
 
-        uMesh.vertices = vertices;
+		uMesh.vertices = vertices;
         uMesh.triangles = triangles;
         if (source.GetComponent<SpriteRenderer>() != null)
         {
