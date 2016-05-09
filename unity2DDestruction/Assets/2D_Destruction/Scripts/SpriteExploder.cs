@@ -52,7 +52,7 @@ public static class SpriteExploder {
 
         for (int i = 0; i < extraPoints; i++)
         {
-            points.Add(new Vector2(Random.Range(rect.width / -2, rect.width / 2), Random.Range(rect.height / -2, rect.height / 2)));
+            points.Add(new Vector2(Random.Range(rect.width / -2, rect.width / 2), Random.Range(rect.height / -2 + rect.center.y, rect.height / 2 + rect.center.y)));
         }
 
 
@@ -198,11 +198,14 @@ public static class SpriteExploder {
 
         for (int i = 0; i < extraPoints; i++)
         {
-            points.Add(new Vector2(Random.Range(rect.width / -2, rect.width / 2), Random.Range(rect.height / -2, rect.height / 2)));
-        }
+            points.Add(new Vector2(Random.Range(
+				rect.width / -2 + rect.center.x, rect.width / 2 + rect.center.x), 
+				Random.Range(rect.height / -2 + rect.center.y, rect.height / 2 + rect.center.y)
+				));
+		}
 
 
-        Voronoi voronoi = new Delaunay.Voronoi(points, null, rect);
+		Voronoi voronoi = new Delaunay.Voronoi(points, null, rect);
         List<List<Vector2>> clippedRegions = new List<List<Vector2>>();
         foreach (List<Vector2> region in voronoi.Regions())
         {
@@ -255,9 +258,9 @@ public static class SpriteExploder {
             uMesh = meshFilter.sharedMesh;
         }
 
-        Voronoi voronoi = new Voronoi(region, null, getRect(region));
+		Voronoi voronoi = new Voronoi(region, null, getRect(region));
 
-        Vector3[] vertices = calcVerts(voronoi);
+		Vector3[] vertices = calcVerts(voronoi);
         int[] triangles = calcTriangles(voronoi);
 
         uMesh.vertices = vertices;
@@ -355,9 +358,10 @@ public static class SpriteExploder {
     /// <returns>a Rectangle representing the rendering bounds of the object</returns>
     private static Rect getRect(GameObject source)
     {
-        Bounds bounds = source.GetComponent<Renderer>().bounds;
-        //return new Rect(source.transform.localPosition - bounds.extents, bounds.size);
-        return new Rect(bounds.extents.x*-1, bounds.extents.y*-1,bounds.size.x,bounds.size.y);
+		Bounds bounds = source.GetComponent<Renderer>().bounds;
+		Rect rect = new Rect(bounds.extents.x * -1, bounds.extents.y * -1, bounds.size.x, bounds.size.y);
+		rect.center = new Vector2(rect.center.x + bounds.center.x - source.transform.position.x, rect.center.y + bounds.center.y - source.transform.position.y);
+		return rect;
     }
     private static Rect getRect(List<Vector2> region)
     {
